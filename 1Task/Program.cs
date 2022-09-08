@@ -1,1 +1,8 @@
-﻿// Эта программа показывает 2ю цифру 3х значного числа. Я естесно решу ее способом "строки" ;)
+﻿// //Показывает 2ю цифру 3х значного чила или сообщает об ошибке.
+Console.Write("Введите Трехзначное число  ");
+int n = Convert.ToInt32(Console.ReadLine());
+if (n < 99)
+    Console.WriteLine( "ERROR!");
+else
+    Console.WriteLine(Convert.ToString(n)[1]);
+    
